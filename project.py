@@ -61,9 +61,8 @@ users = [generate_user() for _ in range(total_users)]
 #with open("mock_users.json", "w") as file:
  #   json.dump(users, file, default=date_handler, indent=4)
 
-YOUR_USERNAME = "abanobmikhael7"
-YOUR_PASSWORD = "&Bob01095459013&"
-connection_string = f"mongodb+srv://abanobmikhael7:&Bob01095459013&@finalproject.m1flajw.mongodb.net/retryWrites=true&w=majority"
+
+connection_string = f"mongodb+srv://abanobmikhael7:<password>@finalproject.m1flajw.mongodb.net/retryWrites=true&w=majority"
 
 client = MongoClient(connection_string)
 
